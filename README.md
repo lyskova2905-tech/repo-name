@@ -1,4 +1,3 @@
-# repo-name
 <!DOCTYPE html>
 <html lang="ru">
 <head>
