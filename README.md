@@ -63,6 +63,7 @@
         <p style="font-family: Arial, sans-serif; line-height: 1.6;">
             Цифровизация создает спрос на ESG-менеджеров, аналитиков Big Data, специалистов по кибербезопасности 
             международных операций.
+        </p> 
         <img src="https://i.pinimg.com/736x/d8/bd/80/d8bd80890f9cee6cd4a925d94f41c619.jpg"
             alt="Международная команда" style="max-width: 100%; height: auto; border-radius: 8px; margin: 15px 0; border: 2px solid #bdc3c7;">
     </section>
@@ -111,7 +112,7 @@
         
         <h3 style="color: #34495e;">Идеальный кандидат</h3>
         <p style="font-family: Arial, sans-serif; line-height: 1.6;">
-            Амбициозный, коммуникабельный человек с аналитическим мышлением, интересующийся другими культурами. 
+            Амбициозный, коммуникабельный человек с аналитическим мышлением, интересующийся другим культурами. 
             Готов к постоянному обучению и работе в условиях нестабильности.
         </p>
         
@@ -129,7 +130,7 @@
     </section>
     
     <div style="text-align: center; margin: 30px;">
-        <a href="https://t.me/Kayyy_XXX">Связаться с разработчиком</a> 
-</div>
+        <a href="https://t.me/Kayyy_XXX">Связаться с разработчиком</a>
+    </div> 
 </body>
 </html>
