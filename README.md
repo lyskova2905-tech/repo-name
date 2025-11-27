@@ -4,133 +4,233 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Международная экономика и бизнес</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        section {
+            padding: 25px 40px;
+            margin: 20px;
+            border-radius: 10px;
+            border: 2px solid;
+        }
+        .section1 {
+            border-color: #3498db;
+            background-color: #e8f4fc;
+        }
+        .section2 {
+            border-color: #e74c3c;
+            background-color: #fdedec;
+        }
+        .section3 {
+            border-color: #9b59b6;
+            background-color: #f4ecf7;
+        }
+        .section4 {
+            border-color: #27ae60;
+            background-color: #eafaf1;
+        }
+        .section5 {
+            border-color: #f39c12;
+            background-color: #fef9e7;
+        }
+        .section6 {
+            border-color: #34495e;
+            background-color: #ebedef;
+        }
+        .image-placeholder {
+            background: linear-gradient(45deg, #ddd, #eee);
+            padding: 60px 20px;
+            text-align: center;
+            border-radius: 8px;
+            margin: 15px 0;
+            border: 2px solid #bdc3c7;
+            color: #666;
+            font-style: italic;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            padding: 20px;
+        }
+        h2 {
+            font-family: Arial, sans-serif;
+        }
+        .section1 h2 { color: #2980b9; }
+        .section2 h2 { color: #c0392b; }
+        .section3 h2 { color: #8e44ad; }
+        .section4 h2 { color: #229954; }
+        .section5 h2 { color: #d35400; }
+        .section6 h2 { color: #2c3e50; }
+        
+        h3 {
+            color: #34495e;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            line-height: 1.6;
+        }
+        strong {
+            color: #2c3e50;
+        }
+        .contact {
+            text-align: center;
+            margin: 30px;
+            padding: 20px;
+        }
+        .contact a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: 2px solid #3498db;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        .contact a:hover {
+            background-color: #3498db;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="color: #2c3e50; text-align: center; font-family: Arial, sans-serif; padding: 20px;">Международная экономика и бизнес</h1>
+    <h1>Международная экономика и бизнес</h1>
     
-    <section style="border: 2px solid #3498db; background-color: rgba(52, 152, 219, 0.1); padding: 25px 40px; margin: 20px; border-radius: 10px;">
-        <h2 style="color: #2980b9; font-family: Arial, sans-serif;">Раздел 1: Суть специальности</h2>
+    <section class="section1">
+        <h2>Раздел 1: Суть специальности</h2>
         
-        <h3 style="color: #34495e;">Интеграционный характер:</h3>
-        <p style="font-family: Arial, sans-serif; line-height: 1.6;">
+        <h3>Интеграционный характер:</h3>
+        <p>
             Это направление объединяет экономику, менеджмент и международные отношения. Специалисты анализируют 
             глобальные рынки и разрабатывают бизнес-стратегии для международной арены.
         </p>
         
-        <h3 style="color: #34495e;">Основные дисциплины:</h3>
-        <ul style="font-family: Arial, sans-serif;">
-            <li><strong style="color: #2c3e50;">Международная торговля</strong> - механизмы мировой торговли</li>
-            <li><strong style="color: #2c3e50;">Валютные операции</strong> - работа с финансовыми рынками</li>
-            <li><strong style="color: #2c3e50;">Стратегии корпораций</strong> - управление международным бизнесом</li>
-            <li><strong style="color: #2c3e50;">Межкультурный менеджмент</strong> - ведение переговоров</li>
-            <li><strong style="color: #2c3e50;">Глобальная экономика</strong> - деятельность международных организаций</li>
+        <h3>Основные дисциплины:</h3>
+        <ul>
+            <li><strong>Международная торговля</strong> - механизмы мировой торговли</li>
+            <li><strong>Валютные операции</strong> - работа с финансовыми рынками</li>
+            <li><strong>Стратегии корпораций</strong> - управление международным бизнесом</li>
+            <li><strong>Межкультурный менеджмент</strong> - ведение переговоров</li>
+            <li><strong>Глобальная экономика</strong> - деятельность международных организаций</li>
         </ul>
     </section>
     
-    <section style="border: 2px solid #e74c3c; background-color: rgba(231, 76, 60, 0.1); padding: 25px 40px; margin: 20px; border-radius: 10px;">
-        <h2 style="color: #c0392b; font-family: Arial, sans-serif;">Раздел 2: Плюсы и минусы</h2>
+    <section class="section2">
+        <h2>Раздел 2: Плюсы и минусы</h2>
         
-        <h3 style="color: #34495e;">Преимущества:</h3>
-        <ul style="font-family: Arial, sans-serif;">
-            <li><strong style="color: #2c3e50;">Широкий кругозор</strong> - системное видение бизнес-процессов</li>
-            <li><strong style="color: #2c3e50;">Высокие доходы</strong> - конкурентные зарплаты в международных компаниях</li>
-            <li><strong style="color: #2c3e50;">Глобальная карьера</strong> - возможности работы за рубежом</li>
-            <li><strong style="color: #2c3e50;">Развитие навыков</strong> - языки и межкультурные коммуникации</li>
-            <li><strong style="color: #2c3e50;">Престиж</strong> - элитное экономическое образование</li>
+        <h3>Преимущества:</h3>
+        <ul>
+            <li><strong>Широкий кругозор</strong> - системное видение бизнес-процессов</li>
+            <li><strong>Высокие доходы</strong> - конкурентные зарплаты в международных компаниях</li>
+            <li><strong>Глобальная карьера</strong> - возможности работы за рубежом</li>
+            <li><strong>Развитие навыков</strong> - языки и межкультурные коммуникации</li>
+            <li><strong>Престиж</strong> - элитное экономическое образование</li>
         </ul>
-        <img src="https://avatars.mds.yandex.net/i?id=dd2d89e3ab2645949dadda8bcb36ef7d_l-9097048-images-thumbs&n=13"
-            alt="Международные переговоры" style="max-width: 100%; height: auto; border-radius: 8px; margin: 15px 0; border: 2px solid #bdc3c7;">
-        <h3 style="color: #34495e;">Недостатки:</h3>
-        <ul style="font-family: Arial, sans-serif;">
-            <li><strong style="color: #2c3e50;">Поверхностность</strong> - риск недостаточной глубины знаний</li>
-            <li><strong style="color: #2c3e50;">Зависимость от конъюнктуры</strong> - чувствительность к экономическим циклам</li>
-            <li><strong style="color: #2c3e50;">Конкуренция</strong> - много претендентов на позиции</li>
-            <li><strong style="color: #2c3e50;">Постоянное обучение</strong> - быстрые изменения в мировой экономике</li>
-            <li><strong style="color: #2c3e50;">Требования к личности</strong> - успех зависит от личных качеств</li>
+        
+        <div class="image-placeholder">
+            Изображение: Международные переговоры
+        </div>
+        
+        <h3>Недостатки:</h3>
+        <ul>
+            <li><strong>Поверхностность</strong> - риск недостаточной глубины знаний</li>
+            <li><strong>Зависимость от конъюнктуры</strong> - чувствительность к экономическим циклам</li>
+            <li><strong>Конкуренция</strong> - много претендентов на позиции</li>
+            <li><strong>Постоянное обучение</strong> - быстрые изменения в мировой экономике</li>
+            <li><strong>Требования к личности</strong> - успех зависит от личных качеств</li>
         </ul>
     </section>
     
-    <section style="border: 2px solid #9b59b6; background-color: rgba(155, 89, 182, 0.1); padding: 25px 40px; margin: 20px; border-radius: 10px;">
-        <h2 style="color: #8e44ad; font-family: Arial, sans-serif;">Раздел 3: Карьера</h2>
+    <section class="section3">
+        <h2>Раздел 3: Карьера</h2>
         
-        <h3 style="color: #34495e;">Классические направления</h3>
-        <p style="font-family: Arial, sans-serif; line-height: 1.6;">
+        <h3>Классические направления</h3>
+        <p>
             Выпускники работают в международных компаниях, банках, государственных структурах. 
             Позиции: менеджеры по развитию, аналитики рынков, специалисты по ВЭД.
         </p>
         
-        <h3 style="color: #34495e;">Современные возможности</h3>
-        <p style="font-family: Arial, sans-serif; line-height: 1.6;">
+        <h3>Современные возможности</h3>
+        <p>
             Цифровизация создает спрос на ESG-менеджеров, аналитиков Big Data, специалистов по кибербезопасности 
             международных операций.
-        </p> 
-        <img src="https://i.pinimg.com/736x/d8/bd/80/d8bd80890f9cee6cd4a925d94f41c619.jpg"
-            alt="Международная команда" style="max-width: 100%; height: auto; border-radius: 8px; margin: 15px 0; border: 2px solid #bdc3c7;">
+        </p>
+        
+        <div class="image-placeholder">
+            Изображение: Международная команда
+        </div>
     </section>
     
-    <section style="border: 2px solid #27ae60; background-color: rgba(39, 174, 96, 0.1); padding: 25px 40px; margin: 20px; border-radius: 10px;">
-        <h2 style="color: #229954; font-family: Arial, sans-serif;">Раздел 4: Ключевые навыки</h2>
+    <section class="section4">
+        <h2>Раздел 4: Ключевые навыки</h2>
         
-        <h3 style="color: #34495e;">Профессиональные:</h3>
-        <ul style="font-family: Arial, sans-serif;">
-            <li><strong style="color: #2c3e50;">Английский язык</strong> - деловая коммуникация</li>
-            <li><strong style="color: #2c3e50;">Финансовое моделирование</strong> - прогнозные модели</li>
-            <li><strong style="color: #2c3e50;">Анализ рынков</strong> - исследование новых направлений</li>
-            <li><strong style="color: #2c3e50;">Международные переговоры</strong> - культурные особенности</li>
+        <h3>Профессиональные:</h3>
+        <ul>
+            <li><strong>Английский язык</strong> - деловая коммуникация</li>
+            <li><strong>Финансовое моделирование</strong> - прогнозные модели</li>
+            <li><strong>Анализ рынков</strong> - исследование новых направлений</li>
+            <li><strong>Международные переговоры</strong> - культурные особенности</li>
         </ul>
         
-        <h3 style="color: #34495e;">Личные качества:</h3>
-        <ul style="font-family: Arial, sans-serif;">
-            <li><strong style="color: #2c3e50;">Межкультурная коммуникация</strong> - деловой этикет</li>
-            <li><strong style="color: #2c3e50;">Адаптивность</strong> - готовность к изменениям</li>
-            <li><strong style="color: #2c3e50;">Стратегическое мышление</strong> - долгосрочное планирование</li>
-            <li><strong style="color: #2c3e50;">Лидерство</strong> - управление командами</li>
+        <h3>Личные качества:</h3>
+        <ul>
+            <li><strong>Межкультурная коммуникация</strong> - деловой этикет</li>
+            <li><strong>Адаптивность</strong> - готовность к изменениям</li>
+            <li><strong>Стратегическое мышление</strong> - долгосрочное планирование</li>
+            <li><strong>Лидерство</strong> - управление командами</li>
         </ul>
     </section>
     
-    <section style="border: 2px solid #f39c12; background-color: rgba(243, 156, 18, 0.1); padding: 25px 40px; margin: 20px; border-radius: 10px;">
-        <h2 style="color: #d35400; font-family: Arial, sans-serif;">Раздел 5: Будущее специальности</h2>
+    <section class="section5">
+        <h2>Раздел 5: Будущее специальности</h2>
         
-        <h3 style="color: #34495e;">Технологическое влияние</h3>
-        <p style="font-family: Arial, sans-serif; line-height: 1.6;">
+        <h3>Технологическое влияние</h3>
+        <p>
             ИИ и big data меняют экономический анализ, но не заменяют человеческие решения. 
             Цифровые платформы создают новые каналы международной торговли.
         </p>
         
-        <h3 style="color: #34495e;">Современные вызовы</h3>
-        <ul style="font-family: Arial, sans-serif;">
-            <li><strong style="color: #2c3e50;">Устойчивое развитие (ESG)</strong> - экологичный бизнес</li>
-            <li><strong style="color: #2c3e50;">Кибербезопасность</strong> - защита международных сделок</li>
-            <li><strong style="color: #2c3e50;">Регионализация</strong> - новые экономические союзы</li>
+        <h3>Современные вызовы</h3>
+        <ul>
+            <li><strong>Устойчивое развитие (ESG)</strong> - экологичный бизнес</li>
+            <li><strong>Кибербезопасность</strong> - защита международных сделок</li>
+            <li><strong>Регионализация</strong> - новые экономические союзы</li>
         </ul>
-        <img src="https://edu.vgsa.ru/pluginfile.php/71342/course/overviewfiles/893.jpg"
-            alt="Технологии в экономике" style="max-width: 100%; height: auto; border-radius: 8px; margin: 15px 0; border: 2px solid #bdc3c7;">
+        
+        <div class="image-placeholder">
+            Изображение: Технологии в экономике
+        </div>
     </section>
     
-    <section style="border: 2px solid #34495e; background-color: rgba(52, 73, 94, 0.1); padding: 25px 40px; margin: 20px; border-radius: 10px;">
-        <h2 style="color: #2c3e50; font-family: Arial, sans-serif;">Раздел 6: Итоги</h2>
+    <section class="section6">
+        <h2>Раздел 6: Итоги</h2>
         
-        <h3 style="color: #34495e;">Идеальный кандидат</h3>
-        <p style="font-family: Arial, sans-serif; line-height: 1.6;">
-            Амбициозный, коммуникабельный человек с аналитическим мышлением, интересующийся другим культурами. 
+        <h3>Идеальный кандидат</h3>
+        <p>
+            Амбициозный, коммуникабельный человек с аналитическим мышлением, интересующийся другими культурами. 
             Готов к постоянному обучению и работе в условиях нестабильности.
         </p>
         
-        <h3 style="color: #34495e;">Основной риск</h3>
-        <p style="font-family: Arial, sans-serif; line-height: 1.6;">
+        <h3>Основной риск</h3>
+        <p>
             Стать "специалистом широкого профиля" без глубокой экспертизы. Необходимо с первого курса выбирать 
             направление для углубления и развивать его через практику.
         </p>
         
-        <h3 style="color: #34495e;">Заключение</h3>
-        <p style="font-family: Arial, sans-serif; line-height: 1.6;">
+        <h3>Заключение</h3>
+        <p>
             Это карьерный трек, а не профессия. Открывает возможности, но не гарантирует успех. 
             Эффективность на 90% зависит от самого специалиста. При осознанном подходе - трамплин к блестящей карьере.
         </p>
     </section>
     
-    <div style="text-align: center; margin: 30px;">
+    <div class="contact">
         <a href="https://t.me/Kayyy_XXX">Связаться с разработчиком</a>
-    </div> 
+    </div>
 </body>
 </html>
