@@ -130,5 +130,6 @@
     
     <div style="text-align: center; margin: 30px;">
         <a href="https://t.me/Kayyy_XXX">Связаться с разработчиком</a> 
+</div>
 </body>
 </html>
